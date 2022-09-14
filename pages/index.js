@@ -58,7 +58,7 @@ export const GET_JOB_POSTS = `
 `;
 
 function Home({ data }) {
-  console.log(data?.data);
+  // console.log(data?.data);
   return (
     <div>
       {(data?.data?.posts || []).map((item) => {
